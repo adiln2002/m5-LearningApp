@@ -18,6 +18,9 @@
 		50ECAFC328F683B800819D16 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECAFC228F683B800819D16 /* HomeViewRow.swift */; };
 		50ECAFC528F689CA00819D16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECAFC428F689CA00819D16 /* ContentView.swift */; };
 		50ECAFC728F68E3500819D16 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECAFC628F68E3500819D16 /* ContentViewRow.swift */; };
+		50ECAFC928F80B7400819D16 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECAFC828F80B7400819D16 /* ContentDetailView.swift */; };
+		50ECAFCC28F80FEB00819D16 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ECAFCB28F80FEA00819D16 /* AVKit.framework */; };
+		50ECAFCE28F811E600819D16 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECAFCD28F811E600819D16 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		50ECAFC228F683B800819D16 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		50ECAFC428F689CA00819D16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50ECAFC628F68E3500819D16 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		50ECAFC828F80B7400819D16 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		50ECAFCB28F80FEA00819D16 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		50ECAFCD28F811E600819D16 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50ECAFCC28F80FEB00819D16 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +58,7 @@
 			children = (
 				5047499A28F41D6900B8C3B2 /* LearningApp */,
 				5047499928F41D6900B8C3B2 /* Products */,
+				50ECAFCA28F80FEA00819D16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +100,7 @@
 				50ECAFC228F683B800819D16 /* HomeViewRow.swift */,
 				50ECAFC428F689CA00819D16 /* ContentView.swift */,
 				50ECAFC628F68E3500819D16 /* ContentViewRow.swift */,
+				50ECAFC828F80B7400819D16 /* ContentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +118,7 @@
 			children = (
 				504749B228F52B6C00B8C3B2 /* data.json */,
 				504749B128F52B6C00B8C3B2 /* style.html */,
+				50ECAFCD28F811E600819D16 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +136,14 @@
 				504749B628F52EC600B8C3B2 /* Models.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		50ECAFCA28F80FEA00819D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50ECAFCB28F80FEA00819D16 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +221,12 @@
 				5047499E28F41D6900B8C3B2 /* HomeView.swift in Sources */,
 				50ECAFC328F683B800819D16 /* HomeViewRow.swift in Sources */,
 				50ECAFC528F689CA00819D16 /* ContentView.swift in Sources */,
+				50ECAFC928F80B7400819D16 /* ContentDetailView.swift in Sources */,
 				5047499C28F41D6900B8C3B2 /* LearningApp.swift in Sources */,
 				50ECAFC728F68E3500819D16 /* ContentViewRow.swift in Sources */,
 				504749AE28F41F0600B8C3B2 /* ContentModel.swift in Sources */,
 				504749B728F52EC600B8C3B2 /* Models.swift in Sources */,
+				50ECAFCE28F811E600819D16 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,9 +29,9 @@ struct HomeView: View {
                                 NavigationLink(
                                     destination:
                                         ContentView()
-                                        .onAppear(perform: {
-                                            model.beginModule(module.id)
-                                        }),
+                                            .onAppear(perform: {
+                                                model.beginModule(module.id)
+                                            }),
                                     label: {
                                         
                                         // Learning Card
@@ -54,7 +54,7 @@ struct HomeView: View {
                 }
             }
             .navigationTitle("Get Started")
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 
